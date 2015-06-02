@@ -28,7 +28,6 @@ function getThingToSend() {
                 title: property.jqt_headline,
                 body: "http://www.boligportal.dk" + property.jqt_adUrl
             };
-            // console.log("Found: " + thingToSend.title + " (" + thingToSend.body + ")");
             db.isInDB(thingToSend, push.sendThis, alreadySentThis, oops);
         });
     });

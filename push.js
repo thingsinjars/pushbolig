@@ -30,6 +30,7 @@ module.exports = function(db) {
                 });
                 destinations = destinations.concat(additionalToSendTo);
 
+                console.log("Found: " + thingToSend.title + " (" + thingToSend.body + ")");
                 destinations.forEach(function(destination) {
                     pusher[thingToSend.type](destination, thingToSend.title, thingToSend.body, function(error, response) {
                         if (response.active) {
