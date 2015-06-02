@@ -1,7 +1,7 @@
 {
-  "name": "boligpush",
+  "name": "pushbolig",
   "version": "1.0.0",
-  "description": "Push notifications whenever a new apartment appears on boligportal",
+  "description": "Pushbullet notifications whenever a new apartment appears on boligportal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests failed. ;)\""
