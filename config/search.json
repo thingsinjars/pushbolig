@@ -1,0 +1,21 @@
+{
+    "rooms": {
+        "minimum": 3
+    },
+    "rent": {
+        "minimum": 10000,
+        "maximum": 17000
+    },
+    "size": {
+        "minimum": 90,
+        "maximum": 160
+    },
+    "postcodes": [1000, 1500, 1800, 2000, 2100, 2200, 2450, 2500],
+    "furnished": false,
+    "length_of_rental": {
+        "2-12 months": false,
+        "1-2 years": true,
+        "2+ years": true,
+        "unlimited": true
+    }
+}

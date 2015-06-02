@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+db/message_store
+.DS_Store
+

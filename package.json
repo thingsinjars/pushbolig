@@ -1,0 +1,17 @@
+{
+  "name": "boligpush",
+  "version": "1.0.0",
+  "description": "Push notifications whenever a new apartment appears on boligportal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests failed. ;)\""
+  },
+  "author": "Simon Madine <simon@thingsinjars.com>",
+  "license": "MIT",
+  "dependencies": {
+    "keyring": "^1.1.0",
+    "nedb": "^1.1.2",
+    "pushbullet": "^1.4.3",
+    "request": "^2.57.0"
+  }
+}
