@@ -44,7 +44,7 @@ Modify the `config/search.json` file to match your search criteria.
         }
     }
 
-*NOTE: Bolig Portal treats any rent.maximum over 14000 as "no maximum limit"*
+*NOTE: Bolig Portal treats any rent.maximum over 14000 as "no maximum limit" so if there is a rent.maximum set, results with a higher rent will be removed before notifications are sent.*
 
 Scheduling
 ---

@@ -1,5 +1,3 @@
-var searchOptions = require("./config/search.json");
-
 var roomNumberMap = {
     1: 2,
     2: 3,
@@ -7,7 +5,7 @@ var roomNumberMap = {
     4: 9
 };
 
-function parseSearchOptions() {
+function parseSearchOptions(searchOptions) {
     var defaultQuery = require("./defaults/search-default.json");
     if(searchOptions.rooms) {
         var minRooms = searchOptions.rooms.minimum || 1;
