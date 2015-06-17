@@ -13,7 +13,7 @@ Usage
   1. Clone this repository
   2. `npm install`
   3. Get your Pushbullet access token from [pushbullet.com/account](https://www.pushbullet.com/account)
-  4. Save the access token using the keyring module:
+  4. Save the access token using the [keyring](https://www.npmjs.com/package/keyring) module:
      * `node_modules/.bin/keyring store -k pushbullet.accessToken -v YOUR_ACCESS_TOKEN`
   5. Test it all works by running `node index.js`
 
