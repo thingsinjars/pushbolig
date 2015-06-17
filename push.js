@@ -15,6 +15,8 @@ var keyringApi = keyring.instance().load();
 var pusher = new PushBullet(keyringApi.retrieve('pushbullet.accessToken'));
 
 var typesToSendTo = require("./config/types_to_send_to.json");
+
+// config/emails.json should contain an array of email addresses
 var additionalToSendTo = require("./config/emails.json");
 
 module.exports = function(db) {
