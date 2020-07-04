@@ -1,3 +1,7 @@
+# DEPRECATED
+
+*This project is no longer maintained. If there's anything useful here, feel free to pull it out*
+
 BoligPush
 ===
 
